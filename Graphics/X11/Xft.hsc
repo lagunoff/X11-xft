@@ -8,47 +8,7 @@
 --
 -----------------------------------------------------------------------------
 
-module Graphics.X11.Xft ( XftColor
-                        , xftcolor_pixel
-                        , allocaXftColor
-                        , withXftColorName
-                        , withXftColorValue
-                        , XftDraw
-                        , withXftDraw
-                        , xftDrawCreate
-                        , xftDrawCreateBitmap
-                        , xftDrawCreateAlpha
-                        , xftDrawChange
-                        , xftDrawDisplay
-                        , xftDrawDrawable
-                        , xftDrawColormap
-                        , xftDrawVisual
-                        , xftDrawDestroy
-                        , XftFont
-                        , xftfont_ascent
-                        , xftfont_max_ascent
-                        , xftfont_descent
-                        , xftfont_max_descent
-                        , xftfont_height
-                        , xftfont_max_height
-                        , xftfont_max_advance_width
-                        , xftFontOpen
-                        , xftFontOpenXlfd
-                        , xftLockFace
-                        , xftUnlockFace
-                        , xftFontCopy
-                        , xftFontClose
-                        , xftDrawGlyphs
-                        , xftDrawString
-                        , xftDrawStringFallback
-                        , xftTextExtents
-                        , xftTextAccumExtents
-                        , xftDrawRect
-                        , xftDrawSetClipRectangles
-                        , xftDrawSetSubwindowMode
-                        , xftInitFtLibrary
-                        )
- where
+module Graphics.X11.Xft where
 
 import Graphics.X11
 import Graphics.X11.Xlib.Types
